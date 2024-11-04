@@ -14,7 +14,7 @@
       "model": "gpt-4o-mini", // 模型名(对应OneAPI中渠道的模型名)
       "name": "gpt-4o-mini", // 模型别名
       "avatar": "/imgs/model/openai.svg", // 模型的logo
-      "maxContext": 125000, // 最大上下文
+      "maxContext": 12500000, // 最大上下文
       "maxResponse": 16000, // 最大回复
       "quoteMaxToken": 120000, // 最大引用内容
       "maxTemperature": 1.2, // 最大温度
@@ -37,6 +37,30 @@
     {
       "model": "gpt-4o",
       "name": "gpt-4o",
+      "avatar": "/imgs/model/openai.svg",
+      "maxContext": 12500000,
+      "maxResponse": 40000,
+      "quoteMaxToken": 120000,
+      "maxTemperature": 1.2,
+      "charsPointsPrice": 0,
+      "censor": false,
+      "vision": true,
+      "datasetProcess": true,
+      "usedInClassify": true,
+      "usedInExtractFields": true,
+      "usedInToolCall": true,
+      "usedInQueryExtension": true,
+      "toolChoice": true,
+      "functionCall": false,
+      "customCQPrompt": "",
+      "customExtractPrompt": "",
+      "defaultSystemChatPrompt": "",
+      "defaultConfig": {},
+      "fieldMap": {}
+    },
+    {
+      "model": "gpt-3.5-turbo",
+      "name": "gpt3.5",
       "avatar": "/imgs/model/openai.svg",
       "maxContext": 125000,
       "maxResponse": 4000,
